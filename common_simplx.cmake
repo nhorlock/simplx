@@ -2,7 +2,6 @@
 cmake_minimum_required(VERSION 3.7.2)
 project(root)
 
-# root SIMPLX dir
 set(SIMPLX_DIR ${CMAKE_CURRENT_LIST_DIR})
 
 option(SIMPLX_E2E "SIMPLX_E2E" OFF)
@@ -47,10 +46,10 @@ function(simplx_core_set_cxx_flags)
             # gcc > 4.9
             if(${CMAKE_CXX_COMPILER_VERSION} VERSION_GREATER 7)
                 # gcc 7+
-                set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Werror -Wno-deprecated -Woverloaded-virtual -Wsign-promo -Wno-noexcept-type -fdiagnostics-color=auto ")
+                set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare")
             else()
                 # gcc ] 4.9 ; 7 ]
-                set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Werror -Wno-deprecated -Woverloaded-virtual -Wsign-promo -fdiagnostics-color=auto")
+                set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wsign-promo -fdiagnostics-color=auto")
             endif()
         else()
             # gcc <= 4.9

@@ -28,3 +28,14 @@ doc/latex/
 e2e_localhost.txt
 /.vscode
 **/.vscode/*
+simplx.code-workspace
+.clangd/**/*.idx
+**/cmake_install.cmake
+**/CMakeCache.txt
+**/Cmake*.cmake
+**/CTest*.cmake
+**/Dart*
+**/Makefile
+**/*.orig
+**/CMakeFiles/*
+**/*.a

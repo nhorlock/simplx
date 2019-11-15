@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/actor.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/actor.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/actor.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/engine.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/engine.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/engine.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/node.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/node.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/node.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/refmapper.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/refmapper.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/refmapper.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/linux/platform_gcc.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/linux/platform_gcc.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/linux/platform_gcc.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/linux/platform_linux.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/linux/platform_linux.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/linux/platform_linux.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/parallel/parallel_xplat.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/parallel/parallel_xplat.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/parallel/parallel_xplat.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/src/simplx_core",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include -I/home/neil/code/thirdparty/simplx  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/engine.dir/e2e_stub.cpp.o -c /home/neil/code/thirdparty/simplx/src/simplx_core/e2e_stub.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/src/simplx_core/e2e_stub.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/tutorial/04_printer_actor_service",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/gw_printer_actor_service.bin.dir/printer_actor_proxy_service.cpp.o -c /home/neil/code/thirdparty/simplx/tutorial/04_printer_actor_service/printer_actor_proxy_service.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/tutorial/04_printer_actor_service/printer_actor_proxy_service.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/tutorial/04_printer_actor_service",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/printer_actor_service.bin.dir/printer_actor_service.cpp.o -c /home/neil/code/thirdparty/simplx/tutorial/04_printer_actor_service/printer_actor_service.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/tutorial/04_printer_actor_service/printer_actor_service.cpp"
+},
+{
+  "directory": "/home/neil/code/thirdparty/simplx/build/tutorial/09_sync_exit",
+  "command": "/usr/bin/g++-8   -I/home/neil/code/thirdparty/simplx/include  -std=c++11 -pthread -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -Wall -Wextra -Wpedantic -Wno-deprecated -Woverloaded-virtual -Wno-noexcept-type -fdiagnostics-color=auto -Wno-sign-compare -g   -o CMakeFiles/sync_exit.bin.dir/sync_exit.cpp.o -c /home/neil/code/thirdparty/simplx/tutorial/09_sync_exit/sync_exit.cpp",
+  "file": "/home/neil/code/thirdparty/simplx/tutorial/09_sync_exit/sync_exit.cpp"
+}
+]

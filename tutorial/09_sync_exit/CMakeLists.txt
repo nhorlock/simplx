@@ -6,12 +6,9 @@ include("../../common_simplx.cmake")
 
 simplx_core_set_cxx_flags()
 
-set(SOURCE_FILES    ${CMAKE_CURRENT_SOURCE_DIR}/sync_exit.cpp
-            
-                )
+set(SOURCE_FILES    ${CMAKE_CURRENT_SOURCE_DIR}/sync_exit.cpp)
 
-simplx_core_add_topdir(src/simplx_core)
+#simplx_core_add_topdir(src/simplx_core)
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
-
 target_link_libraries(${TARGET_NAME} engine)
