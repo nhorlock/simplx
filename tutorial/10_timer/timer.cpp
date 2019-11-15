@@ -16,21 +16,47 @@
 using namespace std;
 using namespace simplx;
 
-class MyActor: public Actor, public timer::TimerProxy
+class MyActor: public Actor
 {
+	public:
+	class timeOut1:public timer::TimerProxy
+	{	public:
+		Actor& actorRef;
+		timeOut1(Actor& actor, int period):timer::TimerProxy(actor), actorRef(actor)
+		{
+			cout << "Setting timeout for adhoc at " << period << "\n";
+			set(Time::Second(period));
+		}
+		void onTimeout(const simplx::DateTime&) noexcept
+		{
+			cout << "Received adhoc timer\n";
+		}
+	} timer1;
+
+	class timeOut2:public timer::TimerProxy
+	{
+		private:
+		int count;
+		Actor& actorRef;
+		public:
+		timeOut2(Actor& actor, int period):timer::TimerProxy(actor), count(0), actorRef(actor)
+		{
+			cout << "Setting timeout for repeat at " << period << "\n";
+			setRepeat(Time::Second(period));
+		}
+		void onTimeout(const simplx::DateTime& ) noexcept
+		{
+			cout << "Received periodic timer " << count << "\n";
+			count++;
+        
+        	if (count == 15)   actorRef.requestDestroy();
+		}
+	} timer2;
+
 public:
 	MyActor()
-        : TimerProxy(static_cast<simplx::Actor&>(*this)), m_Count(0)
+        : timer1(static_cast<Actor&>(*this),31), timer2(static_cast<Actor&>(*this),3)
 	{
-		setRepeat(Time::Second(1));
-	}
-	
-	void onTimeout(const simplx::DateTime&) throw() override
-	{
-		m_Count++;
-		cout << "Timer count " << m_Count << endl;
-        
-        if (m_Count == 3)   requestDestroy();
 	}
 	
 private:
